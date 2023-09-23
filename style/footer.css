@@ -1,0 +1,54 @@
+footer {
+  background-color: var(--black);
+  margin-top: 7rem;
+  color: var(--white);
+}
+
+.col-wrapper {
+  padding: 6.25rem 3.5rem;
+  display: flex;
+}
+
+.col {
+  width: 25%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.col img {
+  width: 109px;
+  margin-bottom: 3rem;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: .8rem;
+  font-weight: 500;
+  padding: 1.25rem;
+}
+
+.footer-col-title {
+  font-family: Cormorant Garamond, serif;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  margin-top: 3rem;
+}
+
+hr {
+  height: .01rem;
+  background-color: var(--gray);
+  border: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-weight: 600;
+}

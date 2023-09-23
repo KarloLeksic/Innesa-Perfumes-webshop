@@ -1,0 +1,133 @@
+.best-sellers-section {
+  padding: 6.25rem 5rem 0 5rem;
+}
+
+.best-sellers-wrapper {
+  display: flex;
+}
+
+.best-seller {
+  width: 25%;
+  margin: .7rem;
+}
+
+.best-seller img {
+  width: 100%;
+}
+
+.best-seller-desc {
+  padding: 0 .7rem;
+}
+
+.best-seller-category {
+  font-size: .8rem;
+  color: var(--gray);
+  font-weight: 500;
+  margin-bottom: .4rem;
+}
+
+.best-seller-name {
+  font-family: Cormorant Garamond, serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.best-seller-price {
+  color: var(--gray);
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.new-fragrance-wrapper {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.new-fragrance {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.new-fragrance img {
+  width: 50%;
+  height: 50%;
+  padding: 0 .6rem;
+}
+
+.new-fragrance-paragraph {
+  font-family: Cormorant Garamond, serif;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2rem;
+  max-width: 28rem;
+  margin-bottom: 2rem;
+}
+
+.new-fragrance-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrapper {
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.image-wrapper img {
+  width: 100%;
+}
+
+.perfume-reflective-edition-container {
+  margin-top: 1.5rem;
+  background-image: url(../images/bg-02.jpg);
+  background-size: auto;
+  height: 600px;
+}
+
+.perfume-reflective-edition-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6.25rem;
+  justify-content: center;
+  position: relative;
+}
+
+.perfume-reflective-edition-text {
+  color: var(--white);
+}
+
+.perfume-reflective-paragraph {
+  font-family: Cormorant Garamond, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-bottom: .5rem;
+}
+
+.perfume-reflective-paragraph-big-text {
+  font-family: Cormorant Garamond, serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.125rem;
+  max-width: 20rem;
+  margin-bottom: .8rem;
+}
+
+.perfume-reflective-paragraph-2nd-p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  max-width: 22rem;
+}
+
+.perfume-reflective-edition-container img {
+  width: 22%;
+  position: absolute;
+  bottom: -10%;
+  left: 39%;
+}
