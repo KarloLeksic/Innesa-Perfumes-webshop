@@ -1,0 +1,52 @@
+.products {
+  padding: 6.25rem 5rem 0 5rem;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-side {
+  width: 50%;
+}
+
+.text-side-wrapper-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+}
+
+.text-side-wrapper-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: left;
+}
+
+.image-wrapper-right {
+  position: relative;
+  display: flex;
+  justify-content: left;
+}
+
+.image-wrapper-left {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+
+.cover-image-right {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+
+.cover-image-left {
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}

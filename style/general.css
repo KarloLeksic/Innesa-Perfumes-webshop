@@ -1,0 +1,59 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #5b5b5b;
+
+  --second-font: Cormorant Garamond, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  padding-bottom: 2000px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.paragraph {
+  color: var(--gray);
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: 32rem;
+  margin-bottom: 3.5rem;
+}
+
+.second-font-paragraph {
+  font-family: Cormorant Garamond, serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.19rem;
+}
+
+.second-font-title {
+  font-family: Cormorant Garamond, serif;
+  font-size: 5.5rem;
+  font-weight: 400;
+  line-height: 4.7rem;
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
+
+.black-btn {
+  text-decoration: none;
+  padding: 1rem 1.25rem;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
