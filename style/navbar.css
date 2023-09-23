@@ -29,3 +29,26 @@ header img {
   font-size: 1rem;
   font-weight: 500;
 }
+
+.menu-link .fa-solid {
+  font-size: 1.3rem;
+}
+
+.cart-link {
+position: relative;
+}
+
+.quantity {
+  position: absolute;
+  top: -1rem;
+  right: -1.5rem;
+  padding: .2rem .5rem;
+  border-radius: 5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: .8rem;
+  font-weight: 700;
+}
