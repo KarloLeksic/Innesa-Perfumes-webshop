@@ -7,6 +7,7 @@ footer {
 .col-wrapper {
   padding: 6.25rem 3.5rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col {
@@ -51,4 +52,32 @@ footer ul {
 
 footer ul li {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-wrapper {
+    padding: 4rem 2rem;
+  }
+
+  .col {
+    width: 50%;
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .col-wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .col {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .footer-col-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
 }

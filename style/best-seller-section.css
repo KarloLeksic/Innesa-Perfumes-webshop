@@ -4,11 +4,12 @@
 
 .best-sellers-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .best-seller {
   width: 25%;
-  margin: .7rem;
+  padding: .7rem;
 }
 
 .best-seller img {
@@ -40,6 +41,7 @@
 
 .new-fragrance-wrapper {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 4rem;
 }
 
@@ -84,17 +86,16 @@
 .perfume-reflective-edition-container {
   margin-top: 1.5rem;
   background-image: url(../images/bg-02.jpg);
-  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
-}
-
-.perfume-reflective-edition-container {
   display: flex;
   flex-direction: column;
   padding-left: 6.25rem;
   justify-content: center;
   position: relative;
 }
+
 
 .perfume-reflective-edition-text {
   color: var(--white);
@@ -130,4 +131,59 @@
   position: absolute;
   bottom: -10%;
   left: 39%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .best-seller {
+    width: 50%;
+  }
+
+  .new-fragrance-paragraph {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .new-fragrance,
+  .image-wrapper {
+    width: 100%;
+    padding-left: 0;
+    margin: 1rem 0;
+  }
+
+  .new-fragrance-paragraph {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .best-sellers-section {
+    padding: 3rem 2rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .perfume-reflective-edition-container {
+    margin-top: 1.5rem;
+    height: 600px;
+    padding-left: 2rem;
+  }
+
+  .perfume-reflective-edition-container img {
+    width: 30%;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .best-seller {
+    width: 100%;
+  }
+
+  .new-fragrance-wrapper {
+    margin-top: 2rem;
+  }
 }

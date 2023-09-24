@@ -4,12 +4,13 @@
 
 .cateory-wrapper {
   display: flex;
-  margin-top: 2rem;
+  flex-wrap: wrap;
+  padding-top: 2rem;
 }
 
 .category-card {
   width: 33%;
-  margin: .5rem;
+  padding: .5rem;
   position: relative;
   text-align: center;
 }
@@ -42,4 +43,21 @@
 .category-card-footer p {
   font-size: .65rem;
   color: var(--gray);
+}
+
+@media only screen and (max-width: 800px) {
+  .new-perfumes-section {
+    padding: 5rem 2rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .category-card {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .cateory-wrapper {
+    padding-top: 1rem;
+  }
 }

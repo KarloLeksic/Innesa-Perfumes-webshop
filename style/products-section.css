@@ -50,3 +50,33 @@
   top: 25%;
   left: 0%;
 }
+
+@media only screen and (max-width: 1550px) {
+  .bg-image{
+    width: 80%;
+  }
+
+  .cover-image-left,
+  .cover-image-right {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .products {
+    padding: 3rem 2rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .image-side {
+    width: 100%;
+  }
+
+  .text-side-wrapper-right,
+  .text-side-wrapper-left {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+}

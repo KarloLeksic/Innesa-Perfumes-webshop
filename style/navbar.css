@@ -52,3 +52,15 @@ position: relative;
   font-size: .8rem;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 1024px) {
+  header {
+    padding: 0 .5rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  header nav ul li {
+    display: none;
+  }
+}
