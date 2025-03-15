@@ -6,6 +6,6 @@ My version of the site is on the [link](https://karloleksic.github.io/Innesa-Per
 
 ## ⚠️ Notice ⚠️
 
-This site is created before the start of my professional career as a frontend developer, and it is not the best representation of my current skills❗ 
+This site was created before the start of my professional career as a frontend developer, and it is not the best representation of my current skills❗ 
 
 It only exists to show how I practiced, learned, and how long I have been exploring web development❗
